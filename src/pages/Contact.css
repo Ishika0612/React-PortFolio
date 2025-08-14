@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+.contactdiv{
+    height:90%;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     gap:20px;
+     margin-top: 80px;
+}
+.contactdiv h2{
+    font-size: 2rem;
+}
+.contactcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.msgsend{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    gap:20px;
+    width:350px;
+    height:350px;
+    margin:10px;
+}
+.msgsend button{
+    background-color: #0A66C2;
+    border-radius: 6px;
+    width:100px;
+    height:35px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.inp{
+    width:300px;
+    height:40px;
+    font-size:16px;
+}
+.area{
+    height:100px;
+}
+.contactinfo{
+  font-size:20px;
+  width:350px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.contactinfo a {
+    color: #0A66C2;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.contactinfo a:hover {
+    text-decoration: underline;
+}
+.contactinfo div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    margin-left:10px;
+}
+.contactinfo div span{
+    margin-top: 2px;
+}
+@media(max-width:400px){
+.msgsend{
+   width:250px;
+   height:350px;
+} 
+.inp{
+    width:200px;
+    height:40px;
+    font-size:16px;
+}
+.area{
+    height:100px;
+}
+.contactinfo{
+  font-size:18px;
+}
+.contactinfo{
+     width:250px;
+}
+}

@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+.educationdiv{
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-top:100px;
+}
+.educationdiv h2{
+    font-size: 2rem;
+}
+.educationcontent{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.educationcontent ul{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border-left: 4px solid black;
+    border-radius: 2px;
+}
+.educationcontent ul li{
+    margin-left:15px;
+}
+.uldiv{
+    display: flex;
+    width:750px;
+}
+.uldiv p{
+    font-size: 15px;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    width:100%;
+}
+.lists h2{
+    font-size: 21px;  
+}
+.listdate{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:800px){
+    .uldiv{
+        width:90vw;
+    }
+}
+@media(max-width:650px){
+    .listdate{
+        flex-direction: column;
+        gap:4px;
+    }
+}

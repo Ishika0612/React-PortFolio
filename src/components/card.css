@@ -1,0 +1,34 @@
+
+.cards{
+    width:600px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    gap:20px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards li{
+    margin-left:15px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.cards p{
+    line-height: 1.6;
+    font-size: 17px;
+}
+.cards a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #0A66C2;
+    cursor: pointer;
+}
+.cards a:hover{
+    text-decoration: underline;
+}
+@media(max-width:700px){
+    .cards{
+        width:80%;
+    }
+}

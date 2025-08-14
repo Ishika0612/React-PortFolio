@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding0;
+}
+.contacticons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+     width:350px;
+     margin-top:-25px;
+}
+.leetcode{
+    width:35px;
+    height:35px;
+    cursor: pointer;
+}
+.linkedin{
+     width:60px;
+    height:60px;
+    cursor: pointer;
+}
+.instagram{
+    width:38px;
+    height:38px;
+    cursor: pointer;
+}
+.github{
+    width:60px;
+    height:38px;
+    cursor: pointer;
+}
+@media(max-width:400px){
+    .leetcode{
+    width:30px;
+    height:30px;
+}
+.linkedin{
+     width:55px;
+    height:55px;
+}
+.instagram{
+    width:33px;
+    height:33px;
+}
+.github{
+    width:55px;
+    height:33px;
+}
+.contacticons{
+     width:250px;
+}
+}
